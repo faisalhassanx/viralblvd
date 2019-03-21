@@ -155,8 +155,8 @@ h1, .h1 {
 }
 
 h2, .h2 {
-    font-size: 3rem;
-    line-height: 1.3;
+    font-size: 2rem;
+    line-height: 1;
 }
 
 h3, .h3 {
@@ -1489,8 +1489,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ## main navigation
  * ------------------------------------------------------------------- */
 .header-nav {
-    background: #0C0C0C;
-    color: rgba(255, 255, 255, 0.25);
+    background: #000000;
     font-family: "montserrat-light", sans-serif;
     font-size: 1.3rem;
     line-height: 1.846;
@@ -1525,13 +1524,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header-nav h3 {
     font-family: "montserrat-semibold", sans-serif;
-    font-size: 11px;
+    font-size: 1.3rem;
     line-height: 1.5;
     text-transform: uppercase;
     letter-spacing: .25rem;
     margin-bottom: 4.8rem;
     margin-top: .9rem;
-    color: #181842;
+    color: #ffffff;
 }
 
 .header-nav p {
@@ -1577,12 +1576,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-nav__social li a {
-    color: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
 }
 
 .header-nav__social li a:hover,
 .header-nav__social li a:focus {
-    color: white;
+    font-weight: 700;
 }
 
 .header-nav__social li:last-child {
@@ -1684,7 +1683,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-menu-toggle:hover, .header-menu-toggle:focus {
-    color: #181842;
+    color: #ffffff;
+    font-weight: 800;
 }
 
 .header-menu-text {
@@ -3617,6 +3617,10 @@ footer .row {
     .footer-main .right {
         padding-left: 0;
     }
+}
+
+p.nav-content {
+  color: #ffffff;
 }
 
 
