@@ -155,8 +155,8 @@ h1, .h1 {
 }
 
 h2, .h2 {
-    font-size: 3rem;
-    line-height: 1.3;
+    font-size: 2rem;
+    line-height: 1;
 }
 
 h3, .h3 {
@@ -545,7 +545,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-    background-color: #181842;
+    background-color: #ffffff;
     width: 4px;
     height: 35px;
     border-radius: 2px;
@@ -772,7 +772,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-    -webkit-text-fill-color: #181842;
+    -webkit-text-fill-color: #ffffff;
     transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -783,7 +783,27 @@ select:-webkit-autofill:focus {
  *
  * ------------------------------------------------------------------- */
 .btn,
-button,
+button {
+    display: inline-block;
+    font-family: "montserrat-medium", sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    height: 5.4rem;
+    line-height: calc(5.4rem - .4rem);
+    padding: 0 3rem;
+    margin: 0 .3rem 1.2rem 0;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: transparent !important;
+    border: 1px solid white;
+}
+
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
@@ -796,15 +816,15 @@ input[type="button"] {
     line-height: calc(5.4rem - .4rem);
     padding: 0 3rem;
     margin: 0 .3rem 1.2rem 0;
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
     text-align: center;
     white-space: nowrap;
     cursor: pointer;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #c5c5c5;
-    border: .2rem solid #c5c5c5;
+    background: transparent !important;
+    border: none !important;
 }
 
 .btn:hover,
@@ -847,8 +867,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #33a242;
-    border-color: #33a242;
+    background: #ffffff;
+    border-color: #ffffff;
 }
 
 
@@ -872,8 +892,8 @@ input[type="button"].btn--primary:focus {
 
 .btn--stroke, button.btn--stroke {
     background: transparent !important;
-    border: 0.2rem solid #181842;
-    color: #181842;
+    border: 0.2rem solid #ffffff;
+    color: #ffffff;
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
@@ -1489,8 +1509,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ## main navigation
  * ------------------------------------------------------------------- */
 .header-nav {
-    background: #0C0C0C;
-    color: rgba(255, 255, 255, 0.25);
+    background: #000000;
     font-family: "montserrat-light", sans-serif;
     font-size: 1.3rem;
     line-height: 1.846;
@@ -1525,13 +1544,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header-nav h3 {
     font-family: "montserrat-semibold", sans-serif;
-    font-size: 11px;
+    font-size: 1.3rem;
     line-height: 1.5;
     text-transform: uppercase;
     letter-spacing: .25rem;
     margin-bottom: 4.8rem;
     margin-top: .9rem;
-    color: #181842;
+    color: #ffffff;
 }
 
 .header-nav p {
@@ -1577,12 +1596,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-nav__social li a {
-    color: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
 }
 
 .header-nav__social li a:hover,
 .header-nav__social li a:focus {
-    color: white;
+    font-weight: 700;
 }
 
 .header-nav__social li:last-child {
@@ -1684,7 +1703,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-menu-toggle:hover, .header-menu-toggle:focus {
-    color: #181842;
+    color: #ffffff;
+    font-weight: 800;
 }
 
 .header-menu-text {
@@ -1904,7 +1924,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     width: 2px;
     height: 10.2rem;
-    background-color: #181842;
+    background-color: #ffffff;
     position: absolute;
     right: 7.2rem;
     bottom: 0;
@@ -1964,7 +1984,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social span {
-    color: #181842;
+    color: #ffffff;
     right: 4.5rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -2953,7 +2973,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-contact {
     background-color: #000000;
-    background-image: url("../images/img2.jpg");
+    /* background-image: url("../images/viral-blvd.png"); */
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 15rem;
@@ -3005,7 +3025,7 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #181842;
+    border-right: 5px solid #ffffff;
 }
 
 .contact__line {
@@ -3022,9 +3042,9 @@ html.no-csstransitions .home-content__main {
 .contact-content {
     max-width: 1000px;
     background-color: rgba(0, 0, 0, 0.2);
-    color: rgba(255, 255, 255, 0.4);
+    color: #ffffff;
     padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-bottom: -4rem;
     font-family: "montserrat-light", sans-serif;
     font-size: 1.5rem;
     line-height: 2;
@@ -3039,7 +3059,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #181842;
+    color: #ffffff;
 }
 
 .contact-content input[type="email"],
@@ -3051,7 +3071,7 @@ html.no-csstransitions .home-content__main {
 .contact-content input[type="password"],
 .contact-content textarea,
 .contact-content select {
-    color: rgba(255, 255, 255, 0.6);
+    color: #ffffff;
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
     margin-bottom: .9rem;
 }
@@ -3065,42 +3085,58 @@ html.no-csstransitions .home-content__main {
 .contact-content input[type="password"]:focus,
 .contact-content textarea:focus,
 .contact-content select:focus {
-    color: #FFFFFF;
-    border-bottom: 1px solid #181842;
+    color: #ffffff;
+    border-bottom: 1px solid #000000;
 }
 
 .contact-content button,
 .contact-content .btn {
     margin-top: 3.6rem;
+    color: #ffffff;
+    background: transparent !important;
+    border: 0.2rem solid #ffffff;
+    letter-spacing: .25rem;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
+
+.contact-content button:hover,
+.contact-content .btn:hover,
+.contact-content button:focus,
+.contact-content .btn:focus {
+    background: #ffffff !important;
+    color: #000000;
+    border: 0.2rem solid #000000;
+}
+
 .contact-content input::-webkit-input-placeholder,
 .contact-content select::-webkit-input-placeholder,
 .contact-content textarea::-webkit-input-placeholder {
-    color: #4f4f4f;
+    color: #ffffff;
 }
 
 .contact-content input:-moz-placeholder,
 .contact-content select:-moz-placeholder,
 .contact-content textarea:-moz-placeholder {
-    color: #4f4f4f;    /* Firefox 18- */
+    color: #ffffff;    /* Firefox 18- */
 }
 
 .contact-content input::-moz-placeholder,
 .contact-content select::-moz-placeholder,
 .contact-content textarea::-moz-placeholder {
-    color: #4f4f4f;    /* Firefox 19+ */
+    color: #ffffff;    /* Firefox 19+ */
 }
 
 .contact-content input:-ms-input-placeholder,
 .contact-content select:-ms-input-placeholder,
 .contact-content textarea:-ms-input-placeholder {
-    color: #4f4f4f;
+    color: #ffffff;
 }
 
 .contact-content input.placeholder,
 .contact-content select.placeholder,
 .contact-content textarea.placeholder {
-    color: #4f4f4f !important;
+    color: #ffffff !important;
 }
 .contact-primary, .contact-secondary {
     float: left;
@@ -3157,7 +3193,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-social li a:hover,
 .contact-social li a:focus {
-    color: #181842;
+    font-weight: 700;
 }
 
 .contact-social li:last-child {
@@ -3180,7 +3216,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .message-success {
-    color: #181842;
+    color: #ffffff;
 }
 
 .message-warning i, .message-success i {
@@ -3351,12 +3387,14 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 footer {
-    padding: 9rem 0 6rem;
+    padding: 1rem 0 5rem;
     font-family: "montserrat-light", sans-serif;
     font-size: 15px;
-    line-height: 2;
+    line-height: 1;
     text-align: center;
     color: #ffffff;
+    background-color: #000000 !important;
+    margin-top: -30px;
 }
 
 footer h4 {
@@ -3485,9 +3523,9 @@ footer .row {
  * ## footer bottom
  * --------------------------------------------------------------- */
 .footer-bottom {
-    margin-top: 5.4rem;
+    margin-top: 2rem;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .footer-bottom .copyright span {
@@ -3526,7 +3564,7 @@ footer .row {
     line-height: 60px;
     text-align: center;
     background: black;
-    color: rgba(255, 255, 255, 0.5);
+    color: #ffffff;
     text-align: center;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease-in-out;
@@ -3617,6 +3655,10 @@ footer .row {
     .footer-main .right {
         padding-left: 0;
     }
+}
+
+p.nav-content {
+  color: #ffffff;
 }
 
 
