@@ -545,7 +545,11 @@ form,
 }
 
 .line-scale-pulse-out > div {
+<<<<<<< HEAD
     background-color: #ffffff;
+=======
+    background-color: #181842;
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
     width: 4px;
     height: 35px;
     border-radius: 2px;
@@ -772,7 +776,11 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
+<<<<<<< HEAD
     -webkit-text-fill-color: #ffffff;
+=======
+    -webkit-text-fill-color: #181842;
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
     transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -783,6 +791,7 @@ select:-webkit-autofill:focus {
  *
  * ------------------------------------------------------------------- */
 .btn,
+<<<<<<< HEAD
 button {
     display: inline-block;
     font-family: "montserrat-medium", sans-serif;
@@ -804,6 +813,9 @@ button {
     border: 1px solid white;
 }
 
+=======
+button,
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
@@ -816,15 +828,24 @@ input[type="button"] {
     line-height: calc(5.4rem - .4rem);
     padding: 0 3rem;
     margin: 0 .3rem 1.2rem 0;
+<<<<<<< HEAD
     color: #ffffff;
+=======
+    color: #000000;
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
     text-decoration: none;
     text-align: center;
     white-space: nowrap;
     cursor: pointer;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+<<<<<<< HEAD
     background: transparent !important;
     border: none !important;
+=======
+    background-color: #c5c5c5;
+    border: .2rem solid #c5c5c5;
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
 }
 
 .btn:hover,
@@ -867,8 +888,13 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
+<<<<<<< HEAD
     background: #ffffff;
     border-color: #ffffff;
+=======
+    background: #33a242;
+    border-color: #33a242;
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
 }
 
 
@@ -892,8 +918,13 @@ input[type="button"].btn--primary:focus {
 
 .btn--stroke, button.btn--stroke {
     background: transparent !important;
+<<<<<<< HEAD
     border: 0.2rem solid #ffffff;
     color: #ffffff;
+=======
+    border: 0.2rem solid #181842;
+    color: #181842;
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
@@ -1924,7 +1955,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     width: 2px;
     height: 10.2rem;
+<<<<<<< HEAD
     background-color: #ffffff;
+=======
+    background-color: #181842;
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
     position: absolute;
     right: 7.2rem;
     bottom: 0;
@@ -1984,7 +2019,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social span {
+<<<<<<< HEAD
     color: #ffffff;
+=======
+    color: #181842;
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
     right: 4.5rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -2973,7 +3012,11 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-contact {
     background-color: #000000;
+<<<<<<< HEAD
     /* background-image: url("../images/viral-blvd.png"); */
+=======
+    background-image: url("../images/img2.jpg");
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 15rem;
@@ -3025,7 +3068,11 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
+<<<<<<< HEAD
     border-right: 5px solid #ffffff;
+=======
+    border-right: 5px solid #181842;
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
 }
 
 .contact__line {
@@ -3042,9 +3089,15 @@ html.no-csstransitions .home-content__main {
 .contact-content {
     max-width: 1000px;
     background-color: rgba(0, 0, 0, 0.2);
+<<<<<<< HEAD
     color: #ffffff;
     padding-top: 6rem;
     padding-bottom: -4rem;
+=======
+    color: rgba(255, 255, 255, 0.4);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
     font-family: "montserrat-light", sans-serif;
     font-size: 1.5rem;
     line-height: 2;
@@ -3059,7 +3112,11 @@ html.no-csstransitions .home-content__main {
 
 .contact-content h5 {
     margin-top: 0;
+<<<<<<< HEAD
     color: #ffffff;
+=======
+    color: #181842;
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
 }
 
 .contact-content input[type="email"],
@@ -3071,7 +3128,11 @@ html.no-csstransitions .home-content__main {
 .contact-content input[type="password"],
 .contact-content textarea,
 .contact-content select {
+<<<<<<< HEAD
     color: #ffffff;
+=======
+    color: rgba(255, 255, 255, 0.6);
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
     margin-bottom: .9rem;
 }
@@ -3085,13 +3146,19 @@ html.no-csstransitions .home-content__main {
 .contact-content input[type="password"]:focus,
 .contact-content textarea:focus,
 .contact-content select:focus {
+<<<<<<< HEAD
     color: #ffffff;
     border-bottom: 1px solid #000000;
+=======
+    color: #FFFFFF;
+    border-bottom: 1px solid #181842;
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
 }
 
 .contact-content button,
 .contact-content .btn {
     margin-top: 3.6rem;
+<<<<<<< HEAD
     color: #ffffff;
     background: transparent !important;
     border: 0.2rem solid #ffffff;
@@ -3113,30 +3180,53 @@ html.no-csstransitions .home-content__main {
 .contact-content select::-webkit-input-placeholder,
 .contact-content textarea::-webkit-input-placeholder {
     color: #ffffff;
+=======
+}
+.contact-content input::-webkit-input-placeholder,
+.contact-content select::-webkit-input-placeholder,
+.contact-content textarea::-webkit-input-placeholder {
+    color: #4f4f4f;
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
 }
 
 .contact-content input:-moz-placeholder,
 .contact-content select:-moz-placeholder,
 .contact-content textarea:-moz-placeholder {
+<<<<<<< HEAD
     color: #ffffff;    /* Firefox 18- */
+=======
+    color: #4f4f4f;    /* Firefox 18- */
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
 }
 
 .contact-content input::-moz-placeholder,
 .contact-content select::-moz-placeholder,
 .contact-content textarea::-moz-placeholder {
+<<<<<<< HEAD
     color: #ffffff;    /* Firefox 19+ */
+=======
+    color: #4f4f4f;    /* Firefox 19+ */
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
 }
 
 .contact-content input:-ms-input-placeholder,
 .contact-content select:-ms-input-placeholder,
 .contact-content textarea:-ms-input-placeholder {
+<<<<<<< HEAD
     color: #ffffff;
+=======
+    color: #4f4f4f;
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
 }
 
 .contact-content input.placeholder,
 .contact-content select.placeholder,
 .contact-content textarea.placeholder {
+<<<<<<< HEAD
     color: #ffffff !important;
+=======
+    color: #4f4f4f !important;
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
 }
 .contact-primary, .contact-secondary {
     float: left;
@@ -3193,7 +3283,11 @@ html.no-csstransitions .home-content__main {
 
 .contact-social li a:hover,
 .contact-social li a:focus {
+<<<<<<< HEAD
     font-weight: 700;
+=======
+    color: #181842;
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
 }
 
 .contact-social li:last-child {
@@ -3216,7 +3310,11 @@ html.no-csstransitions .home-content__main {
 }
 
 .message-success {
+<<<<<<< HEAD
     color: #ffffff;
+=======
+    color: #181842;
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
 }
 
 .message-warning i, .message-success i {
@@ -3387,6 +3485,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 footer {
+<<<<<<< HEAD
     padding: 1rem 0 5rem;
     font-family: "montserrat-light", sans-serif;
     font-size: 15px;
@@ -3395,6 +3494,14 @@ footer {
     color: #ffffff;
     background-color: #000000 !important;
     margin-top: -30px;
+=======
+    padding: 9rem 0 6rem;
+    font-family: "montserrat-light", sans-serif;
+    font-size: 15px;
+    line-height: 2;
+    text-align: center;
+    color: #ffffff;
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
 }
 
 footer h4 {
@@ -3523,9 +3630,15 @@ footer .row {
  * ## footer bottom
  * --------------------------------------------------------------- */
 .footer-bottom {
+<<<<<<< HEAD
     margin-top: 2rem;
     text-align: center;
     font-size: 16px;
+=======
+    margin-top: 5.4rem;
+    text-align: center;
+    font-size: 14px;
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
 }
 
 .footer-bottom .copyright span {
@@ -3564,7 +3677,11 @@ footer .row {
     line-height: 60px;
     text-align: center;
     background: black;
+<<<<<<< HEAD
     color: #ffffff;
+=======
+    color: rgba(255, 255, 255, 0.5);
+>>>>>>> 7f72c02e5467785c095d2db09ab8ca11005bbcc5
     text-align: center;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease-in-out;
