@@ -832,8 +832,8 @@ button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-    background-color: #b8b8b8;
-    border-color: #b8b8b8;
+    background-color: #ffffff;
+    border-color: 1px solid white;
     color: #000000;
     outline: 0;
 }
@@ -848,6 +848,8 @@ input[type="button"]:focus {
     color: #ffffff;
     outline: 0;
 }
+
+
 
 /* button primary
  * ------------------------------------------------- */
@@ -3413,7 +3415,7 @@ footer a {
 }
 
 footer a:hover, footer a:focus, footer a:active {
-    color: #FFFFFF;
+    color: #000000;
 }
 
 footer .row {
