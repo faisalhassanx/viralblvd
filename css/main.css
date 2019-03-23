@@ -831,18 +831,23 @@ input[type="button"] {
 button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
-input[type="button"]:hover,
-.btn:focus,
-button:focus,
-input[type="submit"]:focus,
-input[type="reset"]:focus,
-input[type="button"]:focus {
+input[type="button"]:hover {
     background-color: #b8b8b8;
     border-color: #b8b8b8;
     color: #000000;
     outline: 0;
 }
 
+.btn:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+    background-color: transparent !important;
+    border-color: 1px solid white;
+    color: #ffffff;
+    outline: 0;
+}
 
 /* button primary
  * ------------------------------------------------- */
@@ -3101,9 +3106,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-content button:hover,
-.contact-content .btn:hover,
-.contact-content button:focus,
-.contact-content .btn:focus {
+.contact-content .btn:hover {
     background: #ffffff !important;
     color: #000000;
     border: 0.2rem solid #000000;
