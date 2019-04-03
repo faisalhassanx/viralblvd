@@ -1906,8 +1906,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::before {
-    border-bottom: 2px solid #181842;
-    border-right: 2px solid #181842;
+    border-bottom: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
     content: '';
     display: block;
     height: 8px;
