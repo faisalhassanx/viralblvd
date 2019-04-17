@@ -2259,7 +2259,7 @@ html.no-csstransitions .home-content__main {
 .about-desc {
     font-size: 2.4rem;
     line-height: 1.75;
-    text-align: center;
+    text-align: justify;
     max-width: 1024px;
 }
 
@@ -2285,6 +2285,17 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats__count {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 8.4rem;
+    line-height: 1;
+    color: #000000;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.inf {
     font-family: "montserrat-bold", sans-serif;
     font-size: 8.4rem;
     line-height: 1;
