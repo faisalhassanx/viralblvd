@@ -1850,6 +1850,8 @@ a.pswp__share--download:hover {
     height: 44px;
     width: 100%;
     padding: 0 6px;
+    color: #ffffff;
+    background-color: black;
 }
 
 .pswp__caption, .pswp__top-bar, .pswp--has_mouse .pswp__button--arrow--left, .pswp--has_mouse .pswp__button--arrow--right {
