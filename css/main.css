@@ -3684,5 +3684,14 @@ p.nav-content {
   color: #ffffff;
 }
 
+#privacy-policy:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+, #privacy-policy:focus {
+    color: #ffffff;
+}
+
 
 /*# sourceMappingURL=main.css.map */
