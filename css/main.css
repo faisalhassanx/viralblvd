@@ -3689,7 +3689,7 @@ p.nav-content {
     text-decoration: underline;
 }
 
-, #privacy-policy:focus {
+#privacy-policy:focus {
     color: #ffffff;
 }
 
